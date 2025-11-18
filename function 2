@@ -1,0 +1,15 @@
+#include<stdio.h>
+int persondetails(){
+    int age,name,department;
+    printf("enter the name of the person\n");
+    scanf("%d",&name);
+    printf("enter the age of the person\n");
+    scanf("%d",&age);
+    printf("enter the department of the person\n");
+    scanf("%d",&department);
+}
+int main()
+{
+    persondetails();
+}
+
