@@ -1,0 +1,26 @@
+Here is a simple C program that asks the user to enter two numbers and then computes their sum, difference, product, and quotient:
+
+#include <stdio.h>
+
+int main() {
+    float num1, num2;  
+    float sum, difference, product, quotient;
+
+    // Input from user
+    printf("Enter first number: ");
+    scanf("%f", &num1);
+   printf("Enter second number: ");
+   scanf("%f", &num2);
+
+        printf("Quotient: %.2f\n", quotient);
+    } else {
+        printf("Quotient: Cannot divide by zero.\n");
+    }
+
+    // Display results
+    printf("Sum: %.2f\n", sum);
+    printf("Difference: %.2f\n", difference);
+    printf("Product: %.2f\n", product);
+
+    return 0;
+}
