@@ -1,0 +1,24 @@
+// Online C compiler to run C program 
+
+#include <stdio.h>
+
+int main() {
+    int num;
+
+    // Input from the user
+    printf("Enter a number: ");
+    scanf("%d", &num);
+
+    // Check condition
+    if (num > 0) {
+        printf("%d is a Positive number.\n", num);
+    }
+    else if (num < 0) {
+        printf("%d is a Negative number.\n", num);
+    }
+    else {
+        printf("The number is Zero.\n");
+    }
+
+    return 0;
+}
